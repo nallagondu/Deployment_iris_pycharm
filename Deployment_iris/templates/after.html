@@ -1,0 +1,19 @@
+<html>
+ <body>
+    <h1> PREDICTION</h1>
+    {% if data == 0 %}
+    <h1>IRIS-Setosa</h1>
+    <img src='static\setosa.jpg'>
+
+    {% elif data == 1 %}
+    <h1>IRIS-Versicolor</h1>
+    <img src='static\versicolor.jpg'>
+
+    {% else %}
+    <h1>IRIS-virginica</h1>
+    <img src='static\virginica.jpg'>
+    {% endif %}
+        <br> <br>
+    <a href='/'> Go back to home page </a>
+</body>
+</html>
